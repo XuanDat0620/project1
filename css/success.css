@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+main {
+    margin-top: 40px;
+}
+/*Section-header-1*/
+#section-header-1  {
+    height: 40px; /*Chiều cao của phần tử*/
+    line-height: 40px;/*Chiều cao dòng văn bản*/
+    position: fixed; /* Đặt vị trí cố định */
+    top: 0; /* Đặt ở trên cùng */
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+}
+#section-header-1 a:hover{
+    color: #d3995f;
+}
+.navbar-brand {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #000; /* Bạn có thể đổi màu tại đây */
+    margin-left: 20px;
+}
+.navbar-nav ul li a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #2a2a2a;
+    margin: 0 12px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+.navbar-nav li {
+    font-size: 14px;
+    font-weight: 500;
+    color: #2a2a2a;
+    margin: 0 12px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+.navbar i {
+    color: #2a2a2a;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.navbar a:hover i {
+    color: #d3995f;
+}
+.success-box {
+    margin-top: 100px;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.success-box h1 {
+    color: #28a745;
+}
+.btn-home {
+    margin-top: 20px;
+}

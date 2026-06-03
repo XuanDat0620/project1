@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+main {
+    margin-top: 40px;
+}
+
+body {
+    padding-top: 0;
+}
+/*Section-header-1*/
+#section-header-1  {
+    height: 40px; /*Chiều cao của phần tử*/
+    line-height: 40px;/*Chiều cao dòng văn bản*/
+    position: fixed; /* Đặt vị trí cố định */
+    top: 0; /* Đặt ở trên cùng */
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+}
+#section-header-1 a:hover{
+    color: #d3995f;
+}
+.navbar-brand {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #000; /* Bạn có thể đổi màu tại đây */
+}
+.navbar-nav .nav-link {
+    font-size: 12px;
+    font-weight: 500;
+    color: #2a2a2a;
+    margin: 0 12px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+.navbar i {
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.navbar a:hover i {
+    color: #d3995f;
+}
+/*End header*/
+/*main*/
+body {
+    background-color: #f8f9fa;
+}
+/*main {*/
+/*    max-width: 100%;*/
+/*  overflow-x: hidden;*/
+/*  padding-left: 15px;*/
+/*  padding-right: 15px;*/
+/*  margin-top: 100px;*/
+/*}*/
+.information {
+    margin-bottom: 8px;
+}
+h3, h4 {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: 500;
+    font-size: 18px;
+}
+.order {
+    background-color: #fff;
+    padding: 16px;           /* tương đương p-3 */
+    border: 1px solid #dee2e6;/* Độ dày của viền-Kiểu viền đặc (liên tục)-Màu sắc của viền*/
+    border-radius: 4px;   /* bo góc nhẹ */
+}
+
+.order p {
+    margin: 0;
+    font-size: 14px;
+}
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* căn giữa theo chiều dọc cho đẹp */
+  margin-bottom: 10px; /* khoảng cách giữa các item */
+}
+
+.order-item p {
+  margin: 0;
+}
+
+.order-item.total {
+  font-weight: bold;
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#section-header-1{
+    background: #292929;
+    font-size: 12px;
+    color: #fdfdfd;
+    height: 50px;
+    line-height: 30px;
+}
+#section-header-1 a{
+    color: #fdfdfd;
+    text-decoration: none;
+}   
+#section-main-1 {
+    flex-direction: column;
+}
+.stat-item {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #0000001a;
+    text-align: center;
+}
+.content {
+    flex: 1;
+    padding: 20px;
+    background: #eaeaea;
+}
+.stats {
+    display: flex;
+    gap: 20px;
+}

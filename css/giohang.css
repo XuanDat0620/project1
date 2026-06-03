@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+main {
+    margin-top: 40px;
+}
+
+body {
+    padding-top: 0;
+}
+/*Section-header-1*/
+#section-header-1  {
+    height: 40px; /*Chiều cao của phần tử*/
+    line-height: 40px;/*Chiều cao dòng văn bản*/
+    position: fixed; /* Đặt vị trí cố định */
+    top: 0; /* Đặt ở trên cùng */
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+}
+#section-header-1 a:hover{
+    color: #d3995f;
+}
+.navbar-brand {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #000; /* Bạn có thể đổi màu tại đây */
+}
+.navbar-nav .nav-link {
+    font-size: 14px;
+    font-weight: 500;
+    color: #2a2a2a;
+    margin: 0 12px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+.navbar i {
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.navbar a:hover i {
+    color: #d3995f;
+}
+/*End header*/
+.table {
+    border: 1px solid #dee2e6;
+    background-color: #fff;
+}
+
+/* Header bảng */
+.table thead th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+/* Ô hình ảnh sản phẩm */
+.table td img {
+    width: 80px;  /* Đặt kích thước cố định cho ảnh */
+    height: 80px;  /* Đặt chiều cao cố định cho ảnh */
+    object-fit: cover; /* Đảm bảo ảnh không bị méo */
+}
+
+/* Ô số lượng */
+.table input.qtt {
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+/* Căn trái tên sản phẩm */
+.table td text-start {
+    vertical-align: middle;
+}
+.image {
+    width: 80px;
+    height: 80px;
+}
+
+.product-img {
+    width: 100%;  /* Chiếm toàn bộ chiều rộng của ô hình ảnh */
+    height: 100%;  /* Chiếm toàn bộ chiều cao của ô hình ảnh */
+    object-fit: cover;  /* Đảm bảo ảnh không bị biến dạng */
+    border-radius: 4px;
+    display: block;
+}
+
+.quantity-prd {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Nút xóa */
+.btn-danger.btn-sm {
+    padding: 4px 8px;
+}
+
+/* Phần tổng cộng */
+.total-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.total-cart h5 {
+    margin: 0;
+}
+
+.total-cart .text-danger {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.total-cart .btn-primary {
+    padding: 6px 20px;
+    font-size: 16px;
+    font-weight: 500;
+}

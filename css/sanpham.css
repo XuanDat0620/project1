@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+    padding-top: 0;
+}
+/*Section-header-1*/
+#section-header-1  {
+    height: 40px; /*Chiều cao của phần tử*/
+    line-height: 40px;/*Chiều cao dòng văn bản*/
+    position: fixed; /* Đặt vị trí cố định */
+    top: 0; /* Đặt ở trên cùng */
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+}
+#section-header-1 a:hover{
+    color: #d3995f;
+}
+.navbar-brand {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #000; /* Bạn có thể đổi màu tại đây */
+}
+.navbar-nav .nav-link {
+    font-size: 12px;
+    font-weight: 500;
+    color: #2a2a2a;
+    margin: 0 12px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+.navbar i {
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.navbar a:hover i {
+    color: #d3995f;
+}
+/*End header*/
+/*main*/
+#section-main {
+    margin-top: 50px;
+}
+/*.sidebar {*/
+/*      background: #fff;*/
+/*      position: sticky;*/
+/*    padding-left: 10px;*/
+/*}*/
+.cate-right-top-item:first-child{
+    flex: 2;
+    font-size: 16px;
+    font-weight: bold;
+}
+.cate-right-top-item{
+    flex: 1;
+    padding: 0 12px;
+}
+.cate-right-top-item button{
+    width: 100%;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+}
+.cate-right-top-item select{
+    width: 100%;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+}
+.product-card img {
+      object-fit: cover;
+      height: 400px;
+}
+.card-body a  {
+    text-decoration: none;
+    color: #2a2a2a;
+}
+.card-body a h6:hover {
+    color: #d3995f; /* màu chữ tiêu đề khi hover */
+}
+.filter-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.filter-option {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.filter-option label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.filter-option input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+
+.filter-option span {
+    color: #777;
+    font-size: 13px;
+}
+
+.show-more {
+    display: inline-block;
+    font-size: 13px;
+    color: #000;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+/* Color box nhỏ */
+.color-box {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    border: 1px solid #000;
+}
+.color-box.black {
+    background-color: black;
+}
+.color-box.grey {
+    background-color: grey;
+}
+.color-box.blue {
+    background-color: blue;
+}
+
+/*end main*/

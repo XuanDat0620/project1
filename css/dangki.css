@@ -1,0 +1,78 @@
+/* Nền tổng thể */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: linear-gradient(to right, #74ebd5, #ACB6E5);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container form */
+.register-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+
+  width: 80%;               /* Giảm bớt chiều ngang trên thiết bị nhỏ */
+  max-width: 360px;         /* Giảm max-width để khung nhỏ hơn */
+  box-sizing: border-box;
+
+  margin-top: 20px;         /* Thêm khoảng cách phía trên */
+  margin-bottom: 10px;      /* Tránh dính đáy */
+}
+
+/* Form */
+.register-form h2 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 10px;
+  font-size: 20px;          /* Giảm font để không bị tràn */
+}
+
+.register-form label {
+  display: block;
+  margin-top: 4px;
+  font-weight: 300;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 6px 8px;         /* Giảm padding để ô nhỏ hơn */
+  margin-top: 2px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 12px;          /* Nhỏ chữ một chút */
+  box-sizing: border-box;
+}
+
+
+.register-form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.login-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
